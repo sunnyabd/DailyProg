@@ -1,10 +1,9 @@
 import cProfile
-from random import randint
-
-# Initializing 100000 rolls of dice with values between 1 and 999999999
+# load and sort rolls. given that yahtzee gives rolls in ascending order
+rolls = open("yahtzee-upper-1.txt", "r")
 roll = []
-for nextNum in range(100000):
-    roll.append(randint(1,999999999))
+for x in rolls.readlines():
+    roll.append(int(x.strip()))
 roll = sorted(roll)
 
 
@@ -27,7 +26,6 @@ def yahtzee_upper(roll = [2, 3, 5, 5, 6]):
             count = 1
         elif currNum == nextNum:
             count += 1
-
     print(highscore)
 
 #print(yahtzee_upper([1, 1, 1, 3, 3]))
