@@ -1,6 +1,4 @@
-import random
 import cProfile
-import time
 
 file = open("smorse2-bonus1.in", "r")
 data = file.readlines()
