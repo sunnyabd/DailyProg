@@ -8,7 +8,8 @@ def same_necklace(orig = "nicole", check = "icolen"):
     check2 = check+check
     if orig in check2:
         return True
-    else: return False
+    else:
+        return False
 
 def bonus1(orig = "nicole", check = "icolen"):
     counter = 0
