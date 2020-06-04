@@ -1,6 +1,8 @@
 .gitignore
 *.xml
 *.pyc
+Challenge #384 [Intermediate] Necklace counting/venv/*
+Challenge #384 [Intermediate] Necklace counting/.idea/*
 Challenge #380 [Intermediate] Smooshed Morse Code 2/Challenge #380 [Intermediate] Smooshed Morse Code 2/*
 venv/Lib/site-packages/easy_install.py
 .idea/DailyProg.iml
@@ -1475,3 +1477,4 @@ Challenge #384 [Intermediate] Necklace counting/venv/Scripts/pip3.8.exe
 Challenge #384 [Intermediate] Necklace counting/venv/Scripts/pip3.exe
 Challenge #384 [Intermediate] Necklace counting/venv/Scripts/python.exe
 Challenge #384 [Intermediate] Necklace counting/venv/Scripts/pythonw.exe
+Challenge #375 [Intermediate] A Card Flipping Game/flip_game.py
